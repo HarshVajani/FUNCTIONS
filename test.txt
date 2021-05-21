@@ -1,0 +1,21 @@
+ f = open("test.txt")
+ f.read()
+ 'This is the text from file 1.\n'
+
+  f = open("test.txt")
+    fileLines = f.readlines()
+    for line in fileLines:
+        print(line)
+
+This is the text from file 1.
+
+intoString = "My name is Harsh,I am 12 years old."
+words = intoString.split(",")
+print(words)
+['My name is Harsh' , 'I am 12 years old']
+
+def greet(name)
+print("Hello,"+ name + "How are u ?")
+greet("Harsh")
+
+Hello Harsh. How are u?
